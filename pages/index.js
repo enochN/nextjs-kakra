@@ -1,59 +1,51 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>Kakra Agyepong</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome <a href="#">Kakra</a>, to the
+        <b> CODE!</b>
       </h1>
 
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
+      <p className="description">Let's get started!</p>
 
       <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
+        <a href="https://github.com/enochN/nextjs-kakra" className="card">
+          <h3>GitHub &rarr;</h3>
+          <p>This is where this code is hosted</p>
         </a>
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
+        <a href="https://zeit.co/login" className="card">
+          <h3>ZEIT Now &rarr;</h3>
+          <p>This is where the code is deployed</p>
         </a>
 
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+        <a href="https://reactjs.org/" className="card">
+          <h3>React &rarr;</h3>
+          <p>This is the core framework the code is written in</p>
         </a>
 
-        <a
-          href="https://zeit.co/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with ZEIT Now.
-          </p>
+        <a href="https://code.visualstudio.com/" className="card">
+          <h3>VS Code &rarr;</h3>
+          <p>A Simple Code Editor for writing your code on your PC</p>
         </a>
       </div>
+
+      <code style={{ fontSize: "10px" }} className="description">
+        Pssst! You don't need to know everything, I don't. So don't let any of
+        the above intimidate you.
+      </code>
     </main>
 
     <footer>
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        Powered by <p>&nbsp; Social Distancing</p>
       </a>
     </footer>
 
@@ -198,6 +190,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
